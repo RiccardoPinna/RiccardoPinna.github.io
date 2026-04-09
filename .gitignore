@@ -41,6 +41,3 @@ __screenshots__/
 
 # Vite
 *.timestamp-*-*.mjs
-
-# Images
-src/assets/img
