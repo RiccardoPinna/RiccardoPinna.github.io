@@ -1,0 +1,43 @@
+// ============================================
+// VARIABILI DI DESIGN – Riccardo Pinna
+// Estratte dal progetto React originale
+// ============================================
+
+// Colori primari
+$blue-900: #1e3a8a;   // bg-blue-900, text-blue-900
+$red-600:  #dc2626;   // bg-red-600, text-red-600
+
+// Grigi e neutri (slate)
+$slate-50:  #f8fafc;
+$slate-100: #f1f5f9;
+$slate-200: #e2e8f0;
+$slate-300: #cbd5e1;
+$slate-400: #94a3b8;
+$slate-500: #64748b;
+$slate-600: #475569;
+$slate-700: #334155;
+$slate-800: #1e293b;
+$slate-900: #0f172a;
+
+// Bianco e nero
+$white: #ffffff;
+$black: #000000;
+
+// Font
+$font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+// Breakpoints (per responsive)
+$screen-sm: 640px;
+$screen-md: 768px;
+$screen-lg: 1024px;
+$screen-xl: 1280px;
+
+// Container
+$container-max-width: 1280px;
+$container-padding: 1rem;
+$container-padding-sm: 1.5rem;
+$container-padding-lg: 2rem;
+
+// Transizioni
+$transition-fast: 0.2s ease;
+$transition-normal: 0.3s ease;

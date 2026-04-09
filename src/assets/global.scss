@@ -1,0 +1,52 @@
+@import './variables';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+// Il contenitore root di Vue (#app)
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  font-family: $font-family;
+  color: $slate-900;
+  background-color: $white;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: $container-max-width;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $container-padding;
+  padding-right: $container-padding;
+
+  @media (min-width: $screen-sm) {
+    padding-left: $container-padding-sm;
+    padding-right: $container-padding-sm;
+  }
+
+  @media (min-width: $screen-lg) {
+    padding-left: $container-padding-lg;
+    padding-right: $container-padding-lg;
+  }
+}
+
+// Utility
+.text-center { text-align: center; }
+.text-white { color: $white; }
+.text-red-600 { color: $red-600; }
+.bg-white { background-color: $white; }
+.bg-slate-50 { background-color: $slate-50; }
+.bg-blue-900 { background-color: $blue-900; }
+// ... altre utility se necessario
