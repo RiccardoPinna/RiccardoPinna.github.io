@@ -13,7 +13,17 @@
               <Mail />
             </div>
             <div>
-              <p class="contact-detail__label">Email</p>
+              <p class="contact-detail__label">Mail</p>
+              <a href="mailto:riccardopinnanutrizionista@gmail.com" class="contact-detail__value">riccardopinnanutrizionista@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <div class="contact-detail__icon">
+              <BadgeCheck />
+            </div>
+            <div>
+              <p class="contact-detail__label">PEC</p>
               <a href="mailto:riccardo.pinna@pecobsardegna.it" class="contact-detail__value">riccardo.pinna@pecobsardegna.it</a>
             </div>
           </div>
@@ -100,7 +110,7 @@
 
 <script setup>
 import { ref, reactive, computed } from 'vue';
-import { Mail, Instagram, Phone, MapPin } from 'lucide-vue-next';
+import { Mail, Instagram, Phone, MapPin, MailCheck, ShieldCheck, BadgeCheck } from 'lucide-vue-next';
 import { inviaForm } from '@/composables/useContactForm';
 
 // Helper sanitize (simula DOMPurify)
@@ -328,4 +338,9 @@ const whatsappLink = computed(() => {
     cursor: not-allowed;
   }
 }
+
+.contact__description {
+  padding-bottom: 2rem;
+}
+
 </style>
